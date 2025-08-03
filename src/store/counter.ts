@@ -1,6 +1,7 @@
 
 
-const defineStore = (window as any).defineStore;
+import { defineStore } from 'pinia';
+// const defineStore = (window as any).defineStore;
 
 
 export const useCounterStore = defineStore('counter', {

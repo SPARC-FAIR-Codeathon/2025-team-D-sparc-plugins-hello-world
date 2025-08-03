@@ -1,11 +1,11 @@
 <template>
-  <v-container>
-    <v-alert type="success">Hello from HelloWorld with Vuetify!</v-alert>
-    <v-btn @click="sayHello">hello111</v-btn>
+  <v-container class="d-flex flex-column align-center justify-center ">
+    <v-alert v-show="alert" type="success" class="my-width">Hello from HelloWorld with Vuetify!</v-alert>
+    <v-btn @click="alert = !alert">Hello World</v-btn>
     <div class="test">
       test
     </div>
-    <v-card class="ma-4 pa-4">
+    <v-card class="ma-4 pa-4 my-width">
       <v-btn @click="counter.increment">Click</v-btn>
       <p>Count: {{ counter.count }}</p>
     </v-card>
@@ -13,8 +13,9 @@
 </template>
 
 <script setup>
-// 使用 Vuetify 组件即可
+import { ref } from 'vue';
 
+const alert = ref(false);
 const sayHello = ()=>{
   console.log("hello");
   
@@ -30,10 +31,13 @@ const counter = useCounterStore()
   margin: 10px;
   border: 1px solid red;
   border-radius: 10px;
-  width: 100px;
+  width: 200px;
   height: 50px;
   color: #fff;
   text-align: center;
   padding: auto;
+}
+.my-width {
+  width: 80dvw;
 }
 </style>

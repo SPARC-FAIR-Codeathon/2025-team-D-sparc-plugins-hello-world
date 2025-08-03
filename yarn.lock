@@ -1197,6 +1197,11 @@ vite-plugin-css-injected-by-js@^3.5.2:
   resolved "https://registry.yarnpkg.com/vite-plugin-css-injected-by-js/-/vite-plugin-css-injected-by-js-3.5.2.tgz#1f75d16ad5c05b6b49bf18018099a189ec2e46ad"
   integrity sha512-2MpU/Y+SCZyWUB6ua3HbJCrgnF0KACAsmzOQt1UvRVJCGF6S8xdA3ZUhWcWdM9ivG4I5az8PnQmwwrkC2CAQrQ==
 
+vite-plugin-virtual@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-virtual/-/vite-plugin-virtual-0.4.0.tgz#647f2f57eac7023b042b9aeea1049549ababeabd"
+  integrity sha512-4N/vrRynD+DV4Uy2XtYxKgtujc/GQy4R7OWiuvDkMLAzS/JMCyn/L35fnaHcMMNMpO2wuXBj/FzqmJeZvy5Jwg==
+
 vite@^6.3.5:
   version "6.3.5"
   resolved "https://registry.yarnpkg.com/vite/-/vite-6.3.5.tgz#fec73879013c9c0128c8d284504c6d19410d12a3"

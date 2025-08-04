@@ -14,7 +14,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: './src/index.ts',
-      name: 'MyApp',
+      name: 'HelloWorld',
       formats: ['umd'],
       fileName: (format)=>`my-app.${format}.js`
     },
